@@ -1,0 +1,467 @@
+Watching for file changes with StatReloader
+/opt/conda/envs/kbqa_env/lib/python3.7/site-packages/transformers/adapters/models/bert.py:250: FutureWarning: This class has been renamed to `BertAdapterModel` in v3. Please use the new class instead as this class might be removed in a future version.
+  FutureWarning,
+/opt/conda/envs/kbqa_env/lib/python3.7/site-packages/transformers/adapters/models/bert.py:228: FutureWarning: This class has been renamed to `BertAdapterModel` in v3. Please use the new class instead as this class might be removed in a future version.
+  FutureWarning,
+Performing system checks...
+
+[jieba] default dict file path ../data/vocab.txt
+[jieba] default dict file path ../data/vocab.txt
+[jieba] load default dict ../data/vocab.txt ...
+[jieba] load default dict ../data/vocab.txt ...
+>> Synonyms load wordseg dict [/opt/conda/envs/kbqa_env/lib/python3.7/site-packages/synonyms/data/vocab.txt] ... 
+>> Synonyms on loading stopwords [/opt/conda/envs/kbqa_env/lib/python3.7/site-packages/synonyms/data/stopwords.txt] ...
+[Synonyms] on loading vectors [/opt/conda/envs/kbqa_env/lib/python3.7/site-packages/synonyms/data/words.vector.gz] ...
+Batches:   0%|          | 0/25 [00:00<?, ?it/s]Batches:   4%|▍         | 1/25 [00:13<05:12, 13.01s/it]Batches:   8%|▊         | 2/25 [00:16<02:47,  7.29s/it]Batches:  12%|█▏        | 3/25 [00:18<01:51,  5.07s/it]Batches:  16%|█▌        | 4/25 [00:20<01:18,  3.74s/it]Batches:  20%|██        | 5/25 [00:22<00:59,  2.98s/it]Batches:  24%|██▍       | 6/25 [00:23<00:46,  2.43s/it]Batches:  28%|██▊       | 7/25 [00:24<00:36,  2.01s/it]Batches:  32%|███▏      | 8/25 [00:25<00:28,  1.69s/it]Batches:  36%|███▌      | 9/25 [00:26<00:23,  1.45s/it]Batches:  40%|████      | 10/25 [00:27<00:19,  1.29s/it]Batches:  44%|████▍     | 11/25 [00:28<00:16,  1.15s/it]Batches:  48%|████▊     | 12/25 [00:28<00:13,  1.02s/it]Batches:  52%|█████▏    | 13/25 [00:29<00:10,  1.10it/s]Batches:  56%|█████▌    | 14/25 [00:30<00:08,  1.28it/s]Batches:  60%|██████    | 15/25 [00:30<00:07,  1.42it/s]Batches:  64%|██████▍   | 16/25 [00:31<00:05,  1.57it/s]Batches:  68%|██████▊   | 17/25 [00:31<00:04,  1.77it/s]Batches:  72%|███████▏  | 18/25 [00:31<00:03,  2.03it/s]Batches:  76%|███████▌  | 19/25 [00:32<00:02,  2.32it/s]Batches:  80%|████████  | 20/25 [00:32<00:02,  2.37it/s]Batches:  84%|████████▍ | 21/25 [00:32<00:01,  2.74it/s]Batches:  88%|████████▊ | 22/25 [00:32<00:00,  3.15it/s]Batches:  92%|█████████▏| 23/25 [00:33<00:00,  3.38it/s]Batches:  96%|█████████▌| 24/25 [00:33<00:00,  3.47it/s]Batches: 100%|██████████| 25/25 [00:33<00:00,  4.03it/s]Batches: 100%|██████████| 25/25 [00:33<00:00,  1.35s/it]
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+October 10, 2022 - 04:24:04
+Django version 3.2.13, using settings 'mysite.settings'
+Starting development server at http://0.0.0.0:8855/
+Quit the server with CONTROL-C.
+order_dict_for_merge :
+{}
+srtd_with_ratios :
+[(4832923, 'Q15228', 0, 1, 100.0, 5), (4935676, 'Q378913', 0, 1, 100.0, 3), (5802965, 'Q131074', 0, 1, 85.71428571428572, 11), (2073100, 'Q127367', 0, 1, 85.71428571428572, 11), (5498358, 'Q164963', 0, 1, 85.71428571428572, 11), (4109725, 'Q623479', 0, 1, 33.333333333333336, 3), (1777952, 'Q7748486', 0, 1, 33.333333333333336, 3)]
+----------------------------------------------------------------------------------------------------
+order_dict_for_merge :
+{'Q482980': 0}
+srtd_with_ratios :
+[(4964563, 'Q482980', 0, 1, 100.0, 3), (1873674, 'P50', -1, 1, 100.0, 4), (1763543, 'P87', -1, 1, 80.0, 4), (3244090, 'Q2500638', -1, 1, 80.0, 3), (3778767, 'Q788514', -1, 1, 80.0, 3), (4478209, 'Q6625963', -1, 1, 66.66666666666667, 6), (1854392, 'Q15911171', -1, 1, 66.66666666666667, 5), (1479888, 'Q18814623', -1, 1, 66.66666666666667, 5), (2625105, 'Q28924811', -1, 1, 66.66666666666667, 4), (148358, 'Q580896', -1, 1, 66.66666666666667, 4), (2438196, 'Q1086863', -1, 1, 66.66666666666667, 4), (3371322, 'Q702741', -1, 1, 66.66666666666667, 4), (2678647, 'Q3178041', -1, 1, 66.66666666666667, 4), (3796493, 'Q1419339', -1, 1, 66.66666666666667, 3), (1076320, 'P1877', -1, 1, 66.66666666666667, 3), (5213696, 'Q17164434', -1, 1, 66.66666666666667, 3), (2641785, 'Q832785', -1, 1, 57.14285714285714, 5), (5125854, 'Q753110', -1, 1, 57.14285714285714, 5), (2477839, 'Q16299106', -1, 1, 50.0, 4), (4746122, 'Q6739276', -1, 1, 50.0, 4), (4481607, 'Q4388838', -1, 1, 50.0, 3), (5243351, 'P58', -1, 1, 44.44444444444444, 5), (1844342, 'Q22952012', -1, 1, 44.44444444444444, 4), (550039, 'P110', -1, 1, 44.44444444444444, 4), (998390, 'Q1430990', -1, 1, 44.44444444444444, 4), (2419143, 'Q669585', -1, 1, 44.44444444444444, 3), (5036287, 'Q31966', -1, 1, 40.0, 9), (4747747, 'Q7936529', -1, 1, 40.0, 3), (2932781, 'P1472', -1, 1, 40.0, 3), (3211130, 'Q6158098', -1, 1, 36.36363636363637, 7), (2691985, 'P1938', -1, 1, 36.36363636363637, 4), (1070166, 'Q19853403', -1, 1, 36.36363636363637, 4), (4480161, 'Q19757150', -1, 1, 36.36363636363637, 4), (6170404, 'Q11508259', -1, 1, 36.36363636363637, 3), (805297, 'Q12623435', -1, 1, 36.36363636363637, 3), (3324589, 'Q15631714', -1, 1, 36.36363636363637, 3), (4564156, 'Q3412377', -1, 1, 33.333333333333336, 4), (487423, 'Q1690104', -1, 1, 33.333333333333336, 4), (3187132, 'P271', -1, 1, 33.333333333333336, 3), (469495, 'Q11098728', -1, 1, 30.76923076923077, 4), (1035025, 'Q11466886', -1, 1, 30.76923076923077, 3), (4905700, 'Q9654252', -1, 1, 28.57142857142857, 4), (2827083, 'Q19283106', -1, 1, 26.66666666666667, 4), (3937954, 'Q7108571', -1, 1, 26.66666666666667, 4), (4020532, 'Q19283155', -1, 1, 26.66666666666667, 4), (3352290, 'Q6231475', -1, 1, 26.66666666666667, 4), (3177163, 'Q19283159', -1, 1, 26.66666666666667, 4), (792804, 'Q15729826', -1, 1, 26.66666666666667, 4), (228505, 'Q19283168', -1, 1, 26.66666666666667, 4), (255155, 'Q19283085', -1, 1, 26.66666666666667, 4), (3877494, 'Q19283142', -1, 1, 26.66666666666667, 4), (4069775, 'Q19283118', -1, 1, 26.66666666666667, 4), (5555006, 'Q19283164', -1, 1, 26.66666666666667, 4), (5440661, 'Q19283094', -1, 1, 26.66666666666667, 4), (528026, 'Q19283101', -1, 1, 26.66666666666667, 4), (1956512, 'Q19283123', -1, 1, 26.66666666666667, 4), (5814566, 'Q19283109', -1, 1, 26.66666666666667, 4), (2770138, 'Q19283127', -1, 1, 26.66666666666667, 4), (2524068, 'Q19283136', -1, 1, 26.66666666666667, 4), (4015012, 'Q19283148', -1, 1, 26.66666666666667, 4), (5204138, 'Q1256105', -1, 1, 26.66666666666667, 4), (4671603, 'Q19283083', -1, 1, 26.66666666666667, 4), (3608523, 'Q8567025', -1, 1, 26.66666666666667, 4), (333459, 'Q19283090', -1, 1, 26.66666666666667, 4), (5603758, 'Q19283088', -1, 1, 26.66666666666667, 4), (3668716, 'Q19283113', -1, 1, 26.66666666666667, 4), (619756, 'Q19283152', -1, 1, 26.66666666666667, 4), (4328797, 'Q8852859', -1, 1, 26.66666666666667, 4), (1035818, 'Q19283130', -1, 1, 26.66666666666667, 4), (3159784, 'Q17841573', -1, 1, 25.0, 4), (4723770, 'Q23764083', -1, 1, 25.0, 4), (4783695, 'Q8395491', -1, 1, 25.0, 4), (5153795, 'Q19283098', -1, 1, 25.0, 4), (393814, 'Q9840414', -1, 1, 25.0, 4), (5179089, 'Q19283096', -1, 1, 25.0, 4), (4433077, 'Q8762459', -1, 1, 25.0, 4), (2364329, 'Q15729816', -1, 1, 23.529411764705888, 4), (2408960, 'Q176057', -1, 1, 23.529411764705888, 4), (2227871, 'Q349691', -1, 1, 23.529411764705888, 4), (2480872, 'Q349672', -1, 1, 23.529411764705888, 4), (190522, 'Q336659', -1, 1, 23.529411764705888, 4), (3908354, 'Q335980', -1, 1, 23.529411764705888, 4), (386450, 'Q336693', -1, 1, 23.529411764705888, 4), (1401691, 'Q335959', -1, 1, 23.529411764705888, 4), (1184172, 'Q336008', -1, 1, 23.529411764705888, 4), (2598255, 'Q336687', -1, 1, 23.529411764705888, 4), (1471522, 'Q183051', -1, 1, 23.529411764705888, 4), (6073375, 'Q336021', -1, 1, 23.529411764705888, 4), (5831855, 'Q336026', -1, 1, 23.529411764705888, 4), (5572727, 'Q349683', -1, 1, 23.529411764705888, 4), (21742, 'Q335975', -1, 1, 23.529411764705888, 4), (2115228, 'Q349678', -1, 1, 23.529411764705888, 4), (3597305, 'Q336032', -1, 1, 23.529411764705888, 4), (2002707, 'Q335996', -1, 1, 23.529411764705888, 4), (2094831, 'Q336013', -1, 1, 23.529411764705888, 4), (1897073, 'Q15729829', -1, 1, 23.529411764705888, 4), (453773, 'Q348660', -1, 1, 23.529411764705888, 4), (2689135, 'Q349711', -1, 1, 23.529411764705888, 4), (1855261, 'Q349698', -1, 1, 23.529411764705888, 4), (2209003, 'Q336671', -1, 1, 23.529411764705888, 4), (4599015, 'Q336000', -1, 1, 23.529411764705888, 4), (3539442, 'Q349707', -1, 1, 23.529411764705888, 4), (92321, 'Q335967', -1, 1, 23.529411764705888, 4), (5241607, 'Q336654', -1, 1, 23.529411764705888, 4), (1775862, 'Q16771998', -1, 1, 22.22222222222222, 4), (3562493, 'Q8654452', -1, 1, 22.22222222222222, 4), (4236060, 'Q6572391', -1, 1, 22.22222222222222, 4), (1171963, 'Q8011205', -1, 1, 22.22222222222222, 4), (2853370, 'Q8150572', -1, 1, 22.22222222222222, 4), (881405, 'Q20829248', -1, 1, 22.22222222222222, 4), (5221528, 'Q10245165', -1, 1, 22.22222222222222, 4), (5567048, 'Q13302112', -1, 1, 22.22222222222222, 4), (815576, 'Q8654451', -1, 1, 21.052631578947366, 4), (5040298, 'Q8558732', -1, 1, 21.052631578947366, 4), (3816197, 'Q19773330', -1, 1, 21.052631578947366, 4), (4998589, 'Q8358092', -1, 1, 19.999999999999996, 4), (3401786, 'Q7236064', -1, 1, 19.999999999999996, 4), (3047915, 'Q10039183', -1, 1, 19.999999999999996, 4), (3856379, 'Q8248414', -1, 1, 19.999999999999996, 4), (4290015, 'Q20697710', -1, 1, 19.999999999999996, 4), (684690, 'Q8910980', -1, 1, 19.999999999999996, 4), (120948, 'Q7016840', -1, 1, 19.999999999999996, 4), (2949417, 'Q9610757', -1, 1, 19.047619047619047, 4), (4048205, 'Q18218522', -1, 1, 18.181818181818176, 4), (4895121, 'Q17869527', -1, 1, 17.391304347826086, 4), (2040977, 'Q18920914', -1, 1, 16.666666666666664, 4), (5622829, 'Q9523198', -1, 1, 16.000000000000004, 4), (3416783, 'Q10729696', -1, 1, 16.000000000000004, 4), (3277797, 'Q18914337', -1, 1, 15.384615384615385, 4)]
+----------------------------------------------------------------------------------------------------
+ori_entity_ids :
+[['Q15228', 'Q378913', 'Q131074', 'Q127367', 'Q164963']]
+overload_entityid_list :
+[]
+ori_entity_ids :
+[['Q15228', 'Q378913', 'Q131074', 'Q127367', 'Q164963']]
+('forw', 'wiki', 'direct')
+entity_ids :
+[['Q15228', 'Q378913', 'Q131074', 'Q127367', 'Q164963']]
+----------------------------------------------------------------------------------------------------
+queries_list: [('Q378913', 'forw', 'direct'), ('Q127367', 'forw', 'direct'), ('Q164963', 'forw', 'direct'), ('Q131074', 'forw', 'direct'), ('Q15228', 'forw', 'direct')]
+ex_rels :
+['P1040', 'P2061', 'P272', 'P2363', 'P2518', 'P86', 'P915', 'P435', 'P1562', 'P646', 'P725', 'P3135', 'P58', 'P840', 'P747', 'P57', 'P345', 'P136', 'P244', 'P527', 'P156', 'P1476', 'P2638', 'P2554', 'P18', 'P3129', 'P162', 'P175', 'P1874', 'P155', 'P373', 'P179', 'P2529', 'P462', 'P407', 'P406', 'P344', 'P1431', 'P243', 'P655', 'P1434', 'P31', 'P144', 'P1981', 'P3593', 'P3141', 'P214', 'P50', 'P480', 'P910', 'P2047', 'P3417', 'P1712', 'P1804', 'P2014', 'P905', 'P1085', 'P2465', 'P3138', 'P495', 'P2755', 'P3107', 'P2508', 'P3302', 'P577', 'P750', 'P1970', 'P1877', 'P2346', 'P268', 'P3143', 'P1237', 'P364', 'P2603', 'P1274', 'P1258', 'P674', 'P2631', 'P2747', 'P1411', 'P161', 'P1265', 'P123', 'P2334', 'P227', 'P648', 'P166', 'P856'][Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.3s finished
+
+question, order_info: 指环王的作者是谁？, order_info(variable=None, sorting_order=None)
+(query_parser)filter_from_query: []
+year , number 
+(query_parser)filter_from_query: []
+entity_positions ['1'], type_positions ['0']
+(query_parser)entity_combs: [['Q15228', 0], ['Q378913', 1], ['Q131074', 2]], type_combs: [[0]], rel_combs: [[('P50', 0.9944808281582806), 0], [('P162', 0.9822180561699952), 1], [('P272', 0.981900342570252), 2]]
+
+__________________________
+filled query: [['http://www.wikidata.org/entity/Q15228', 'http://www.wikidata.org/prop/direct/P50', '?ent']]
+__________________________
+
+(query_parser)loop time: 0:00:00.003611
+(query_parser)final outputs: [['P50', 'http://www.wikidata.org/entity/Q892', 0.9944808281582806], ['P655', 'http://www.wikidata.org/entity/Q5987141', 0.975997305936627], ['P123', 'http://www.wikidata.org/entity/Q95145', 0.937664471544313]]
+  0%|          | 0/150 [00:00<?, ?it/s]huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+  1%|          | 1/150 [00:11<28:41, 11.56s/it]  2%|▏         | 3/150 [00:12<07:54,  3.23s/it]  3%|▎         | 4/150 [00:13<05:50,  2.40s/it]  4%|▍         | 6/150 [00:13<03:14,  1.35s/it]  5%|▍         | 7/150 [00:14<02:55,  1.23s/it]  6%|▌         | 9/150 [00:15<01:56,  1.21it/s]  7%|▋         | 10/150 [00:20<04:22,  1.87s/it]  8%|▊         | 12/150 [00:23<04:15,  1.85s/it] 15%|█▍        | 22/150 [00:24<01:02,  2.05it/s] 21%|██        | 31/150 [00:24<00:30,  3.91it/s] 25%|██▍       | 37/150 [00:24<00:20,  5.54it/s] 28%|██▊       | 42/150 [00:27<00:31,  3.46it/s] 31%|███       | 46/150 [00:29<00:37,  2.81it/s] 33%|███▎      | 49/150 [00:32<00:50,  2.02it/s] 34%|███▍      | 51/150 [00:34<00:54,  1.81it/s] 35%|███▌      | 53/150 [00:35<00:51,  1.89it/s] 36%|███▌      | 54/150 [00:35<00:51,  1.87it/s] 37%|███▋      | 55/150 [00:36<00:55,  1.70it/s] 38%|███▊      | 57/150 [00:37<00:46,  2.00it/s] 45%|████▌     | 68/150 [00:37<00:12,  6.31it/s] 48%|████▊     | 72/150 [00:42<00:38,  2.04it/s] 50%|█████     | 75/150 [00:47<00:52,  1.42it/s] 51%|█████▏    | 77/150 [00:49<00:58,  1.24it/s] 53%|█████▎    | 79/150 [00:55<01:22,  1.17s/it] 54%|█████▍    | 81/150 [00:57<01:23,  1.21s/it] 55%|█████▍    | 82/150 [00:58<01:18,  1.16s/it] 56%|█████▌    | 84/150 [00:59<01:00,  1.09it/s] 57%|█████▋    | 85/150 [01:00<00:58,  1.10it/s] 58%|█████▊    | 87/150 [01:00<00:44,  1.42it/s] 59%|█████▊    | 88/150 [01:04<01:25,  1.38s/it] 60%|██████    | 90/150 [01:07<01:25,  1.42s/it] 65%|██████▍   | 97/150 [01:08<00:27,  1.90it/s] 67%|██████▋   | 100/150 [01:11<00:35,  1.42it/s] 68%|██████▊   | 102/150 [01:13<00:38,  1.26it/s] 69%|██████▉   | 104/150 [01:17<00:45,  1.00it/s] 70%|███████   | 105/150 [01:19<00:53,  1.18s/it] 71%|███████   | 106/150 [01:22<01:04,  1.47s/it] 72%|███████▏  | 108/150 [01:24<00:53,  1.27s/it] 73%|███████▎  | 109/150 [01:27<01:07,  1.66s/it] 74%|███████▍  | 111/150 [01:29<00:57,  1.47s/it] 75%|███████▍  | 112/150 [01:30<00:51,  1.34s/it] 76%|███████▌  | 114/150 [01:31<00:34,  1.04it/s] 77%|███████▋  | 115/150 [01:31<00:32,  1.07it/s] 78%|███████▊  | 117/150 [01:32<00:22,  1.44it/s] 79%|███████▊  | 118/150 [01:36<00:45,  1.43s/it] 80%|████████  | 120/150 [01:39<00:41,  1.39s/it] 86%|████████▌ | 129/150 [01:39<00:08,  2.41it/s] 88%|████████▊ | 132/150 [01:45<00:14,  1.27it/s] 89%|████████▉ | 134/150 [01:47<00:14,  1.14it/s] 91%|█████████ | 136/150 [01:51<00:16,  1.15s/it] 92%|█████████▏| 138/150 [01:53<00:12,  1.08s/it] 93%|█████████▎| 139/150 [01:57<00:15,  1.45s/it] 94%|█████████▍| 141/150 [01:59<00:12,  1.38s/it] 95%|█████████▍| 142/150 [02:00<00:10,  1.29s/it] 96%|█████████▌| 144/150 [02:01<00:05,  1.04it/s] 97%|█████████▋| 145/150 [02:01<00:04,  1.06it/s] 98%|█████████▊| 147/150 [02:02<00:02,  1.41it/s] 99%|█████████▊| 148/150 [02:03<00:01,  1.35it/s]100%|██████████| 150/150 [02:03<00:00,  1.74it/s]100%|██████████| 150/150 [02:03<00:00,  1.21it/s][Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 風格
+[Synonyms] not exist in w2v model: 風格
+[Synonyms] not exist in w2v model: 風格
+[Synonyms] not exist in w2v model: 長篇小說
+[Synonyms] not exist in w2v model: 風格
+[Synonyms] not exist in w2v model: 小說
+[Synonyms] not exist in w2v model: 風格
+[Synonyms] not exist in w2v model: 風格
+[Synonyms] not exist in w2v model: 風格
+[Synonyms] not exist in w2v model: 風格
+[Synonyms] not exist in w2v model: 風格
+[Synonyms] not exist in w2v model: 風格
+[Synonyms] not exist in w2v model: 風格
+[Synonyms] not exist in w2v model: 劇場版
+[Synonyms] not exist in w2v model: 風格
+[Synonyms] not exist in w2v model: 風格
+[Synonyms] not exist in w2v model: 風格
+[Synonyms] not exist in w2v model: 電影
+[Synonyms] not exist in w2v model: 音樂作品
+[Synonyms] not exist in w2v model: 製作
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 電影
+[Synonyms] not exist in w2v model: 音樂作品
+[Synonyms] not exist in w2v model: 製作
+[Synonyms] not exist in w2v model: 製作商
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 音樂
+[Synonyms] not exist in w2v model: 創作者
+[Synonyms] not exist in w2v model: 倫納德
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 羅森曼
+[Synonyms] not exist in w2v model: 音樂
+[Synonyms] not exist in w2v model: 創作者
+[Synonyms] not exist in w2v model: 電影
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 戲劇
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 遊戲
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 導演
+[Synonyms] not exist in w2v model: 拉爾夫
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 電影
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 戲劇
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 遊戲
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 導演
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 風格
+[Synonyms] not exist in w2v model: 劇情片
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 風格
+[Synonyms] not exist in w2v model: 動作片
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 風格
+[Synonyms] not exist in w2v model: 劇場版
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 風格
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 風格
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 風格
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 風格
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 風格
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 電影
+[Synonyms] not exist in w2v model: 音樂作品
+[Synonyms] not exist in w2v model: 製作
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 電影
+[Synonyms] not exist in w2v model: 音樂作品
+[Synonyms] not exist in w2v model: 製作
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 奧斯朋
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 電影
+[Synonyms] not exist in w2v model: 音樂作品
+[Synonyms] not exist in w2v model: 製作
+[Synonyms] not exist in w2v model: 法蘭
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 華許
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 電影
+[Synonyms] not exist in w2v model: 音樂作品
+[Synonyms] not exist in w2v model: 製作
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 電影
+[Synonyms] not exist in w2v model: 音樂作品
+[Synonyms] not exist in w2v model: 製作
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 電影
+[Synonyms] not exist in w2v model: 音樂作品
+[Synonyms] not exist in w2v model: 製作
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 製作商
+[Synonyms] not exist in w2v model: 新線
+[Synonyms] not exist in w2v model: 影業
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 製作商
+[Synonyms] not exist in w2v model: 溫紐特
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 製作商
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 製作商
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 製作商
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 法蘭
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 華許
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 音樂
+[Synonyms] not exist in w2v model: 創作者
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 音樂
+[Synonyms] not exist in w2v model: 創作者
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 電影
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 戲劇
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 遊戲
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 導演
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 電影
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 戲劇
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 遊戲
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 導演
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 電影
+[Synonyms] not exist in w2v model: 電視節目
+[Synonyms] not exist in w2v model: 執行
+[Synonyms] not exist in w2v model: 製作
+[Synonyms] not exist in w2v model: 人哈維
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 溫斯坦
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 電影
+[Synonyms] not exist in w2v model: 電視節目
+[Synonyms] not exist in w2v model: 執行
+[Synonyms] not exist in w2v model: 製作
+[Synonyms] not exist in w2v model: 鮑伯
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 溫斯坦
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 電影
+[Synonyms] not exist in w2v model: 電視節目
+[Synonyms] not exist in w2v model: 執行
+[Synonyms] not exist in w2v model: 製作
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 電影
+[Synonyms] not exist in w2v model: 電視節目
+[Synonyms] not exist in w2v model: 執行
+[Synonyms] not exist in w2v model: 製作
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 電影
+[Synonyms] not exist in w2v model: 電視節目
+[Synonyms] not exist in w2v model: 執行
+[Synonyms] not exist in w2v model: 製作
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 電影
+[Synonyms] not exist in w2v model: 電視節目
+[Synonyms] not exist in w2v model: 執行
+[Synonyms] not exist in w2v model: 製作
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 電影
+[Synonyms] not exist in w2v model: 電視節目
+[Synonyms] not exist in w2v model: 執行
+[Synonyms] not exist in w2v model: 製作
+[Synonyms] not exist in w2v model: 風格
+[Synonyms] not exist in w2v model: 風格
+[Synonyms] not exist in w2v model: 風格
+[Synonyms] not exist in w2v model: 劇情片
+[Synonyms] not exist in w2v model: 風格
+[Synonyms] not exist in w2v model: 動作片
+[Synonyms] not exist in w2v model: 風格
+[Synonyms] not exist in w2v model: 風格
+[Synonyms] not exist in w2v model: 風格
+
+[Synonyms] not exist in w2v model: 風格
+[Synonyms] not exist in w2v model: 電影
+[Synonyms] not exist in w2v model: 音樂作品
+[Synonyms] not exist in w2v model: 製作
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 奧斯朋
+[Synonyms] not exist in w2v model: 電影
+[Synonyms] not exist in w2v model: 音樂作品
+[Synonyms] not exist in w2v model: 製作
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 電影
+[Synonyms] not exist in w2v model: 音樂作品
+[Synonyms] not exist in w2v model: 製作
+[Synonyms] not exist in w2v model: 法蘭
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 華許
+[Synonyms] not exist in w2v model: 電影
+[Synonyms] not exist in w2v model: 音樂作品
+[Synonyms] not exist in w2v model: 製作
+[Synonyms] not exist in w2v model: 電影
+[Synonyms] not exist in w2v model: 音樂作品
+[Synonyms] not exist in w2v model: 製作
+[Synonyms] not exist in w2v model: 電影
+[Synonyms] not exist in w2v model: 音樂作品
+[Synonyms] not exist in w2v model: 製作
+[Synonyms] not exist in w2v model: 電影
+[Synonyms] not exist in w2v model: 音樂作品
+[Synonyms] not exist in w2v model: 製作
+[Synonyms] not exist in w2v model: 製作商
+[Synonyms] not exist in w2v model: 新線
+[Synonyms] not exist in w2v model: 影業
+[Synonyms] not exist in w2v model: 製作商
+[Synonyms] not exist in w2v model: 溫紐特
+[Synonyms] not exist in w2v model: 製作商
+[Synonyms] not exist in w2v model: 製作商
+[Synonyms] not exist in w2v model: 製作商
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 法蘭
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 華許
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 音樂
+[Synonyms] not exist in w2v model: 創作者
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 音樂
+[Synonyms] not exist in w2v model: 創作者
+[Synonyms] not exist in w2v model: 電影
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 戲劇
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 遊戲
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 導演
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 電影
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 戲劇
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 遊戲
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 導演
+[Synonyms] not exist in w2v model: 電影
+[Synonyms] not exist in w2v model: 電視節目
+[Synonyms] not exist in w2v model: 執行
+[Synonyms] not exist in w2v model: 製作
+[Synonyms] not exist in w2v model: 人哈維
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 溫斯坦
+[Synonyms] not exist in w2v model: 電影
+[Synonyms] not exist in w2v model: 電視節目
+[Synonyms] not exist in w2v model: 執行
+[Synonyms] not exist in w2v model: 製作
+[Synonyms] not exist in w2v model: 鮑伯
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 溫斯坦
+[Synonyms] not exist in w2v model: 電影
+[Synonyms] not exist in w2v model: 電視節目
+[Synonyms] not exist in w2v model: 執行
+[Synonyms] not exist in w2v model: 製作
+[Synonyms] not exist in w2v model: 電影
+[Synonyms] not exist in w2v model: 電視節目
+[Synonyms] not exist in w2v model: 執行
+[Synonyms] not exist in w2v model: 製作
+[Synonyms] not exist in w2v model: 電影
+[Synonyms] not exist in w2v model: 電視節目
+[Synonyms] not exist in w2v model: 執行
+[Synonyms] not exist in w2v model: 製作
+[Synonyms] not exist in w2v model: 電影
+[Synonyms] not exist in w2v model: 電視節目
+[Synonyms] not exist in w2v model: 執行
+[Synonyms] not exist in w2v model: 製作
+[Synonyms] not exist in w2v model: 電影
+[Synonyms] not exist in w2v model: 電視節目
+[Synonyms] not exist in w2v model: 執行
+[Synonyms] not exist in w2v model: 製作
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 風格
+[Synonyms] not exist in w2v model: 劇場版
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 風格
+[Synonyms] not exist in w2v model: 動作片
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 風格
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 風格
+[Synonyms] not exist in w2v model: 劇情片
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 風格
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 風格
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 風格
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 風格
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 電影
+[Synonyms] not exist in w2v model: 音樂作品
+[Synonyms] not exist in w2v model: 製作
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 奧斯朋
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 電影
+[Synonyms] not exist in w2v model: 音樂作品
+[Synonyms] not exist in w2v model: 製作
+[Synonyms] not exist in w2v model: 法蘭
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 華許
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 電影
+[Synonyms] not exist in w2v model: 音樂作品
+[Synonyms] not exist in w2v model: 製作
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 電影
+[Synonyms] not exist in w2v model: 音樂作品
+[Synonyms] not exist in w2v model: 製作
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 電影
+[Synonyms] not exist in w2v model: 音樂作品
+[Synonyms] not exist in w2v model: 製作
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 電影
+[Synonyms] not exist in w2v model: 音樂作品
+[Synonyms] not exist in w2v model: 製作
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 製作商
+[Synonyms] not exist in w2v model: 溫紐特
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 製作商
+[Synonyms] not exist in w2v model: 新線
+[Synonyms] not exist in w2v model: 影業
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 製作商
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 製作商
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 製作商
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 法蘭
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 華許
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 音樂
+[Synonyms] not exist in w2v model: 創作者
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 音樂
+[Synonyms] not exist in w2v model: 創作者
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 電影
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 戲劇
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 遊戲
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 導演
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 電影
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 戲劇
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 遊戲
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 導演
+[Synonyms] not exist in w2v model: 
+[Synonyms] not exist in w2v model: 電影
+[Synonyms] not exist in w2v model: 電視節目
+[Synonyms] not exist in w2v model: 執行
+[Synonyms] not exist in w2v model: 製作
+Batches:   0%|          | 0/5 [00:00<?, ?it/s]Batches:  20%|██        | 1/5 [00:02<00:08,  2.08s/it]Batches:  40%|████      | 2/5 [00:03<00:05,  1.71s/it]Batches:  60%|██████    | 3/5 [00:04<00:03,  1.53s/it]Batches:  80%|████████  | 4/5 [00:05<00:01,  1.18s/it]Batches: 100%|██████████| 5/5 [00:05<00:00,  1.21it/s]Batches: 100%|██████████| 5/5 [00:05<00:00,  1.14s/it]
