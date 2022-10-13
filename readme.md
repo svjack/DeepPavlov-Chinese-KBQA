@@ -24,7 +24,8 @@ There is a point of view that distinguish different nlp question answer systems,
 organization of answers. The question answer system is a system that transform (or map) natural language
 to the different hierarchy of answer space. The answer space can be both probability space 、
 distance space or discrete space. The former two space can be arrived by nlu classifier or distance
-statistics. The last one like this project focus on "translate" natural language to SPARQL query.
+statistics. The last one like this project focus on "translate" natural language to SPARQL query and query
+them on Knowledge Base.
 
 
 ### A Summary on natural language to SPARQL query
