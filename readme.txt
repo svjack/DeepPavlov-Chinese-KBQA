@@ -1,50 +1,30 @@
+Brief introduction
 
-#### sqlite table to django model
-g = wiki_entity_db.query("select * from en_zh_so_search where s = '{}' and lang = '{}'".format(id, lang))
+DeepPavlov is an open-source conversational AI library built on TensorFlow, Keras and PyTorch, which
+has a Knowledge Base Question Answering model that support perform knowledge base qa on both English and
+Russian.
+This project focus on reconstruct a KBQA system on Chinese by replace corresponding semantic parsing
+components into Chinese version and finetuned on Chinese domain. Below are some details.
 
-'''
-from django.db import models
-from django.contrib.postgres.fields import ArrayField
 
-# Create your models here.
+A Review on knowledge base question answer systems.
+There is a point of view that distinguish different nlp question answer systems, that may be the
+organization of answers. The question answer system is a system that transform (or map) natural language
+to the different hierarchy of answer space. The answer space can be both probability space 、
+distance space or discrete space. The former two space can be arrived by nlu classifier or distance
+statistics. The last one is this project focus on and related topic as TableQA(natural language to SQL)
+is a similar topic where this project focus on "translate" natural language to SPARQL query.
 
-class Embedding(models.Model):
-    sent = models.CharField(max_length=200)
-    emb = ArrayField(models.FloatField())
 
-class Translation(models.Model):
-    sent = models.CharField(max_length=2000)
-    trans = models.CharField(max_length=2000)
+A Summary on natural language to SPARQL query.
+Mainly two kinds of natural language to SPARQL query methods. One is a reconstruct method that try to
+decide a suitable base form of SPARQL query and fill it by correspond semantic components extract from
+natural language, The other is a transform method that make this process like a translation between
+natural language and SPARQL query. The above discuss also compliant with TableQA and other natural language
+to query topics.
 
-class Valid(models.Model):
-    valid_string = models.CharField(max_length=2000)
 
-class en_zh_so(models.Model):
-    '''
-    {'s': 'Q1', 'o': '"universe"', 'lang': 'en'}
-    dump to local:
-    nohup sqlite-utils multi_lang_kb_dict.db "select row_number() OVER(ORDER BY s) ,* from en_zh_so" --csv --no-headers > db_dump.csv &
-
-    import pandas as pd
-    from tqdm import tqdm
-    from polls.models import en_zh_so
-
-    db_dump_df = pd.read_csv("mysite_wiki/db_dump.csv", header = None)
-    dmodel = en_zh_so
-    for i, r in tqdm(db_dump_df.iterrows()):
-        d = {
-        "s": r.iloc[1],
-        "o": r.iloc[2],
-        "lang": r.iloc[3]
-        }
-        dm = dmodel(**d)
-        dm.save()
-    '''
-    s = models.CharField(max_length=2000)
-    o = models.CharField(max_length=2000)
-    lang = models.CharField(max_length=2000)
-
-'''
-
-nohup sqlite-utils multi_lang_kb_dict.db "select row_number() OVER(ORDER BY s) ,* from en_zh_so" --csv --no-headers > db_dump.csv &
-nohup sqlite-utils multi_lang_kb_dict.db "select row_number() OVER(ORDER BY s) ,* from en_zh_so_search" --csv --no-headers > db_dump.csv &
+Open Source Projects
+Nowadays(2022 and before) ,In open source community, DeepPavlov[https://github.com/deeppavlov/DeepPavlov]
+and Haystack[https://github.com/deepset-ai/haystack/] are two projects that implement KBQA use the above two
+different methods. And this project focus on adjust the former into Chinese language domain.
