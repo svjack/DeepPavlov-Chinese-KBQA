@@ -50,5 +50,5 @@ KBQA in DeepPavlov have many kind of implementations. Such as decompose natural 
 Universal Dependencies parser (that use tree decomposition to extract semantic sub construction)
 or Use NER to extract entities and properties from natural language directly. Then one can use
 them to full fill a SPARQL query template (choose by a template classifier), use a batch of query
-perform search on Knowledge Base that will retrieve many candidates. And perform a ranking on them.
+perform search on Knowledge Base that will retrieve many candidates. And ranking on them.
 The language components that can be replaced to make it satisfy Chinese domain are include entity extraction、 entity linking 、query template classifier、candidates ranking components. Entity linking reconstruction can be done by perform Chinese word segmentation on Chinese entity representations which associate the English one by wikidataId. Other three components are mainly about translation (and the corpus translation about entity extraction may be skillful)
