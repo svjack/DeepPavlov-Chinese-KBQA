@@ -54,11 +54,11 @@ perform search on Knowledge Base that will retrieve many candidates. Then perfor
 The language components that can be replaced to make it satisfy Chinese domain are include entity extraction、 entity linking 、query template classifier、candidates ranking components. Entity linking reconstruction can be done by perform Chinese word segmentation on Chinese entity representations which associate the English one by wikidataId. Other three components are mainly about translation (and the corpus translation about entity extraction may be skillful)
 
 ### Project Construction
-Following is the function of scripts:
+Following is the function of scripts:<br>
 
-ner_model.py : entity extraction component
-tmp_classifier.py: query template classifier
-ranker.py: candidates ranking component
+ner_model.py : entity extraction component<br>
+tmp_classifier.py: query template classifier<br>
+ranker.py: candidates ranking component<br>
 kbqa_step.py: main script that perform the KBQA task
 
 The main closure of above scripts have some examples that you can try yourself.
