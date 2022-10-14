@@ -74,11 +74,11 @@ The E-TAG indicate entity type and T-TAG as properties.
 
 <b>tmp_classifier.py</b>:<br> A self-trained BaggingClassifier that use MLP as BaseModel to classify Chinese
 question into 5 classes (defined in abcde_dict), with a multilanguage encoder (named LaBSE) to
-encoding the text into dense space.
+encode the text into dense space.
 Use Bagging because the 5 classes is unbalanced (also with some sampling)
 
 <b>ranker.py</b>:<br> A self-trained BaggingClassifier that use MLP as BaseModel to classify Chinese
-question into 2 classes. This task similar with CrossEncoder in [sentence-transformers](https://github.com/UKPLab/sentence-transformers), make may pair input as (chinese_question, property_representation), train a 0-1 classifier to find the highest score pair, that the property_representation represent the question reasonable. This many indicate the evidence about
+question into 2 classes. This task similar with CrossEncoder in [sentence-transformers](https://github.com/UKPLab/sentence-transformers), make pair input as (chinese_question, property_representation), train a 0-1 classifier to find the highest score pair, that the property_representation represent the question reasonable. This may indicate the evidence about
 the answer that satisfy the ask intent.
 
 <b>kbqa_step.py</b>:<br> Main script that perform the KBQA task.
