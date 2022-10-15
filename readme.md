@@ -11,7 +11,7 @@
 
 ### Brief introduction
 
-DeepPavlov is an open-source conversational AI library built on TensorFlow, Keras and PyTorch, which
+[DeepPavlov](https://github.com/deeppavlov/DeepPavlov) is an open-source conversational AI library built on TensorFlow, Keras and PyTorch, which
 has a Knowledge Base Question Answering model that support perform knowledge base qa on both English and
 Russian.
 This project focus on reconstruct a KBQA system on Chinese by replace corresponding semantic parsing
