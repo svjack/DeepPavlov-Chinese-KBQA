@@ -127,3 +127,9 @@ Chinese parts)
 <b>property_df_rep_disambiguation</b>:<br> disambiguate different properties on question.
 
 <b>do_search</b>:<br> The main function that input the Chinese question and output the query conclusion from wikidata hdt Knowledge Base.
+
+<h4>
+<p>
+<a href="api_doc.md"> API Documentation </a>
+</p>
+</h4>
