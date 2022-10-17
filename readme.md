@@ -23,6 +23,26 @@ Refer to INSTALL.sh to install the environment, make sure that you can run the K
 And because the installation may be difficult i have build a docker image. with the pretrained models located in model, sel_ner, tmp_cls, ranker_cls .If someone need, you can send a mail to ehangzhou@outlook.com to get them.
 The wikidata Knowledge Base hdt file can get from me or the [rdfhdt](https://www.rdfhdt.org/datasets/) and make sure the version you download contain Chinese part.(some only have English part).
 
+Pretrained models below should be placed in the correspond location. (Email me to get)
+```yml
+model: #### LaBSE embedding
+- LaBSE_local  
+
+sel_ner: #### Entity Extraction
+- adapter_config.json
+- ner_data_args.pkl
+- pytorch_model_head.bin
+- head_config.json
+- pytorch_adapter.bin
+
+tmp_cls: #### Template classifier
+- tmp_bag_mlp.pkl
+
+ranker_cls: #### Ranking model
+- pid_zh_b_dict.json
+- ranking_bag_mlp.pkl
+```
+
 ### KBQA Usage
 You can run kbqa_step.py directly (call do_search in main closure) or cd into mysite and activate the environment you install KBQA (in INSTALL.sh)
 ```bash
