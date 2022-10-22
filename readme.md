@@ -156,6 +156,7 @@ Project Link:[https://github.com/svjack/DeepPavlov-Chinese-KBQA](https://github.
 * [Haystack](https://github.com/deepset-ai/haystack)
 * [EasyNMT](https://github.com/UKPLab/EasyNMT)
 * [adapter-transformers](https://github.com/adapter-hub/adapter-transformers)
+* [sentence-transformers](https://github.com/UKPLab/sentence-transformers)
 * [rdfhdt](https://www.rdfhdt.org/datasets/)
 * [rdflib](https://github.com/RDFLib/rdflib)
 * [tableQA-Chinese](https://github.com/svjack/tableQA-Chinese)
