@@ -15,7 +15,7 @@ the answer that satisfy the ask intent.
 
 <b>kbqa_step.py</b>:<br> Main script that perform the KBQA task.
 
-function definitions:
+### function definitions:
 
 <b>search_entity_rep_by_lang_filter_in_db</b>:<br> find language representations of a wikidataId by setting the language flag (support en and zh) in a pre-build sqlite database, this DB can be analogy to the translate dictionary of entities cross English and Chinese.
 
