@@ -31,7 +31,11 @@ Universal Dependencies parser (that use tree decomposition to extract semantic s
 or Use NER to extract entities and properties from natural language directly. Than one can use
 them to full fill a SPARQL query template (choose by a template classifier), use a batch of query
 perform search on Knowledge Base that will retrieve many candidates. Then perform a ranking on them.
-The language components that can be replaced to make it satisfy Chinese domain are include entity extraction、 entity linking 、query template classifier、candidates ranking components. Entity linking reconstruction can be done by perform Chinese word segmentation on Chinese entity representations which associate the English one by wikidataId. Other three components are mainly about translation (and the corpus translation about entity extraction may be skillful)
+The language components that can be replaced to make it satisfy Chinese domain are include entity extraction、 entity linking 、query template classifier、candidates ranking components. Entity linking reconstruction can be done by perform Chinese word segmentation on Chinese entity representations which associate the English one by wikidataId. Other three components are mainly about translation (and the corpus translation about entity extraction may be skillful)<br/>
+
+Because the train data for build in KBQA modules in DeepPavlov, missing some labels and imbalanced, it may be important to use some augmentation toolkit to
+deal with this kinds of problems. I developed a toolkit named with [LC-QuAD-augmentation-toolkit](https://github.com/svjack/LC-QuAD-augmentation-toolkit)
+do this job. if you are interested in it. you can download it and try yourself.
 
 ### Project Construction
 Following is the function of scripts:<br>
