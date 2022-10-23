@@ -153,6 +153,7 @@ Project Link:[https://github.com/svjack/DeepPavlov-Chinese-KBQA](https://github.
 * [Font Awesome](https://fontawesome.com)
 -->
 * [DeepPavlov](https://github.com/deeppavlov/DeepPavlov)
+* [LC-QuAD-augmentation-toolkit](https://github.com/svjack/LC-QuAD-augmentation-toolkit)
 * [Haystack](https://github.com/deepset-ai/haystack)
 * [EasyNMT](https://github.com/UKPLab/EasyNMT)
 * [adapter-transformers](https://github.com/adapter-hub/adapter-transformers)
