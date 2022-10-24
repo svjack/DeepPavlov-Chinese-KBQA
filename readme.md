@@ -24,7 +24,7 @@ And because the installation may be difficult i have build a docker image. with 
 The wikidata Knowledge Base hdt file can get from me or the [rdfhdt](https://www.rdfhdt.org/datasets/) and make sure the version you download contain Chinese part.(some only have English part).
 
 Pretrained models below should be placed in the correspond location. 
-files below kbqa-explore path can be download following [installtion of LC-QuAD-augmentation-toolkit](https://github.com/svjack/LC-QuAD-augmentation-toolkit) others can email me to get.
+files below kbqa-explore path can be download following [installtion of LC-QuAD-augmentation-toolkit](https://github.com/svjack/LC-QuAD-augmentation-toolkit)'s [Baidu Yun Drive link](https://pan.baidu.com/s/1e66Lt6nisM3583dbIGsO5w?pwd=ntwz) ,others can email me to get.
 ```yml
 model: #### LaBSE embedding
 - LaBSE_local  
