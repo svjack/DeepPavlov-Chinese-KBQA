@@ -23,7 +23,8 @@ Refer to INSTALL.sh to install the environment, make sure that you can run the K
 And because the installation may be difficult i have build a docker image. with the pretrained models located in model, sel_ner, tmp_cls, ranker_cls .If someone need, you can send a mail to ehangzhou@outlook.com to get them.
 The wikidata Knowledge Base hdt file can get from me or the [rdfhdt](https://www.rdfhdt.org/datasets/) and make sure the version you download contain Chinese part.(some only have English part).
 
-Pretrained models below should be placed in the correspond location. (Email me to get)
+Pretrained models below should be placed in the correspond location. 
+files below kbqa-explore path can be download following [installtion of LC-QuAD-augmentation-toolkit](https://github.com/svjack/LC-QuAD-augmentation-toolkit) others can email me to get.
 ```yml
 model: #### LaBSE embedding
 - LaBSE_local  
@@ -41,6 +42,11 @@ tmp_cls: #### Template classifier
 ranker_cls: #### Ranking model
 - pid_zh_b_dict.json
 - ranking_bag_mlp.pkl
+
+kbqa-explore: #### Knowledge Base and translation dictionary
+- multi_lang_kb_dict.db
+- wikidata.hdt
+- linker_entities.pkl
 ```
 
 ### KBQA Usage
