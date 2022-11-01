@@ -19,7 +19,7 @@ components into Chinese version and finetuned on Chinese domain.
 
 
 ### Installation
-Refer to INSTALL.sh to install the environment, make sure that you can run the KBQA of the original DeepPavlov project.
+Refer to [INSTALL.sh](INSTALL.sh) to install the environment, make sure that you can run the KBQA of the original DeepPavlov project.
 And because the installation may be difficult i have build a docker image. with the pretrained models located in model, sel_ner, tmp_cls, ranker_cls .If someone need, you can send a mail to ehangzhou@outlook.com to get them.
 The wikidata Knowledge Base hdt file can get from me or the [rdfhdt](https://www.rdfhdt.org/datasets/) and make sure the version you download contain Chinese part.(some only have English part).
 
