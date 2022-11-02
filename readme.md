@@ -24,7 +24,13 @@ And because the installation may be difficult i have build a docker image. with 
 The wikidata Knowledge Base hdt file can get from me or the [rdfhdt](https://www.rdfhdt.org/datasets/) and make sure the version you download contain Chinese part.(some only have English part).
 
 Pretrained models below should be placed in the correspond location. 
+<!--
 files below kbqa-explore path can be download following [installtion of LC-QuAD-augmentation-toolkit](https://github.com/svjack/LC-QuAD-augmentation-toolkit)'s [Baidu Yun Drive link](https://pan.baidu.com/s/1e66Lt6nisM3583dbIGsO5w?pwd=ntwz) ,others can email me to get.
+-->
+You can use below link to get them from Baidu Yun Drive. And placed them in the project root path. 
+https://pan.baidu.com/s/1HLAzfBPasudGqtp9f0j5iA?pwd=p83h
+<br/>
+Remember use cat to merge wikidata.hdt.aa wikidata.hdt.ab wikidata.hdt.ac into wikidata.hdt before use it
 ```yml
 model: #### LaBSE embedding
 - LaBSE_local  
