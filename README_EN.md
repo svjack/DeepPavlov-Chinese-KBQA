@@ -9,6 +9,8 @@
   </p>
 </p>
 
+[中文简介](README.md)
+
 ### Brief introduction
 
 [DeepPavlov](https://github.com/deeppavlov/DeepPavlov) is an open-source conversational AI library built on TensorFlow, Keras and PyTorch, which
